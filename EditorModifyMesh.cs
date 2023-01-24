@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.Linq;
-using UnityEditor.PackageManager.UI;
 
 public class EditorModifyMesh : EditorWindow
 {
