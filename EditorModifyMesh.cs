@@ -12,7 +12,6 @@ public class EditorModifyMesh : EditorWindow
     {
         Mesh oldMesh = Selection.activeObject as Mesh;
 
-        //Flips Normals
         oldMesh.triangles = oldMesh.triangles.Reverse().ToArray();
         oldMesh.RecalculateNormals();
 
